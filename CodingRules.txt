@@ -1,0 +1,24 @@
+Naming Rules:
+
+Class names: PascalCase
+Examples: Player, Enemy, GameManager, DatabaseManager
+
+Method names: PascalCase
+Examples: Update(), Draw(), TakeDamage(), LoadPlayerSave()
+
+Private fields: camelCase
+Examples: activeEnemies, playerBullets, currentWave, isPaused
+
+Boolean variables start with is / has / can
+Examples: isPaused, isShooting, canShoot
+
+Main shared names:
+Player player
+List<Enemy> ActiveEnemies
+List<Bullet> PlayerBullets
+List<Bullet> EnemyBullets
+List<Coin> ActiveCoins
+List<PowerUp> ActivePowerUps
+int Score
+int SessionCoins
+int CurrentWave
