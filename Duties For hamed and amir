@@ -1,99 +1,31 @@
-amir do:
+Amir:
+- GameManager
+- Player
+- Enemy base class
+- Enemy types
+- Bullet
+- Collision system
+- Wave system
+- HUD
+- PowerUp system
+- Enums
+- Main game logic
 
-1. ساخت کلاس‌های پایه:
-   Entity
-   Player
-   Enemy
-   Bullet
-   Coin
-   PowerUp
+Hamed:
+- MainMenuForm
+- GameForm UI connection
+- ShopForm
+- OptionsForm
+- AboutForm
+- DatabaseManager / SQLite
+- SoundManager
+- README
+- Assets and sounds
 
-2. پیاده‌سازی ارث‌بری:
-   StandardEnemy
-   ScoutEnemy
-   ShooterEnemy
-   HeavyTankEnemy
-   TerroristEnemy
-
-3. Game Loop با Timer:
-   Update
-   Move
-   Collision
-   Render
-
-4. حرکت بازیکن:
-   حرکت چهارجهته
-   محدودیت خروج از صفحه
-   شلیک با Space
-   Rate Fire
-
-5. برخوردها:
-   تیر بازیکن با دشمن
-   تیر دشمن با بازیکن
-   برخورد بدنه دشمن با بازیکن
-   جمع کردن سکه
-
-6. سیستم موج‌ها:
-   Wave 1 تا Wave 10
-   افزایش سختی
-   زیاد شدن HP و Speed دشمن‌ها
-
-7. PowerUpها:
-   Triple Shot
-   Shield
-   Health Pack
-   Fire Rate Booster
-hamed do:
- 
-1. Main Menu:
-   Play
-   Shop
-   Options
-   About
-   Quit
-
-2. مدیریت فرم‌ها:
-   باز و بسته شدن درست فرم‌ها
-   برگشت از بازی به منو
-   Reset شدن بازی بعد از Play دوباره
-
-3. Shop:
-   نمایش Coins
-   نمایش آیتم‌ها
-   خرید آیتم‌ها
-   Equip کردن آیتم‌ها
-
-4. SQLite:
-   ذخیره TotalCoins
-   ذخیره HighScore
-   ذخیره آیتم‌های خریداری‌شده
-   ذخیره آیتم Equip شده
-
-5. HUD:
-   نمایش HP
-   Score
-   Coins
-   Wave
-   PowerUp Timer
-
-6. Options:
-   Mute/Unmute Music
-   Mute/Unmute SFX
-   نمایش راهنمای کنترل‌ها
-
-7. About:
-   نام و نام خانوادگی
-   شماره دانشجویی هر دو نفر
-   توضیح ابزارهای استفاده‌شده
-
-8. README.md:
-   معرفی بازی
-   توضیح امکانات
-   راهنمای اجرا
-   توضیح کلاس‌ها
-   نام اعضا
-
-9. Git:
-   ساخت Repository
-   Branch جدا برای هر نفر
-   Commitهای مرتب و معنی‌دار
+Together:
+- GitHub repository
+- Branches
+- Pull Requests
+- Final testing
+- Final debugging
+- Project integration
