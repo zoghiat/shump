@@ -10,6 +10,8 @@ Amir:
 - PowerUp system
 - Enums
 - Main game logic
+- README
+=============================================================
 
 Hamed:
 - MainMenuForm
@@ -19,9 +21,8 @@ Hamed:
 - AboutForm
 - DatabaseManager / SQLite
 - SoundManager
-- README
 - Assets and sounds
-
+===========================================================
 Together:
 - GitHub repository
 - Branches
