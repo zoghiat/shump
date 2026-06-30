@@ -44,7 +44,7 @@ public class GameManager
         save = DatabaseManager.LoadPlayerSave();
         int extraLives = save.ExtraLifeBooster > 0 ? 1 : 0;
         if (extraLives > 0) DatabaseManager.ConsumeExtraLifeBooster();
-        Player = new Player(screenSize.Width / 2f - 22, screenSize.Height - 85, extraLives);
+        Player = new Player(screenSize.Width / 2f - 22, screenSize.Height - 85, extraLives, save.EquippedShipSkin);
         bulletStyle = save.EquippedBulletStyle switch
         {
             "green_laser" => "green_laser",
