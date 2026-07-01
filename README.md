@@ -288,7 +288,12 @@
 ---
 u need this two nugets : Microsoft.Data.Sqlite
 NAudio
+=================================================================
+How to open Solution Explorer in Visual Studio:
 
+1-Go to the top menu.
+2-Click View.
+3-Click Solution Explorer.
 ## نتیجه‌گیری
 
 این پروژه با هدف تمرین عملی مفاهیم برنامه‌نویسی شی‌گرا در قالب یک بازی Space Shooter طراحی شده است. در طول پیاده‌سازی پروژه، مفاهیمی مثل کلاس، شیء، ارث‌بری، چندریختی، مدیریت مجموعه‌ها، برخوردها، ذخیره‌سازی با دیتابیس و طراحی رابط کاربری در Windows Forms استفاده شده‌اند.
