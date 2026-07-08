@@ -606,6 +606,7 @@ public class GameManager
         if (Player.IsFireRateBoostActive)
         {
             DrawPowerUpIndicator(g, "F", Brushes.Violet, Player.FireRateBoostTimeLeft, powerUpX, powerUpY);
+            powerUpX += 95;
         }
     }
     // این هم متد کمکی
