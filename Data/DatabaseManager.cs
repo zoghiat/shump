@@ -15,7 +15,6 @@ public static class DatabaseManager
 
         Execute(connection,
         """
-        // درست کردن جدول player
         CREATE TABLE IF NOT EXISTS PlayerData
         (
             Id INTEGER PRIMARY KEY,
@@ -30,7 +29,6 @@ public static class DatabaseManager
 
         Execute(connection,
         """
-        // درست کردن جدول shop
         CREATE TABLE IF NOT EXISTS ShopItems
         (
             ItemKey TEXT PRIMARY KEY,
